@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Формы</title>
+</head>
+<body>
+  <form name="form1">
+    <fieldset>
+      <legend>Ваши данные</legend>
+      <label>
+        Ваше имя
+        <input type="text">
+      </label>
+      <label for="#select1">Город доставки</label>
+      <select name="select" id="select1">
+        <option value="">выбрать город</option>
+        <option value="msk">Москва</option>
+        <option value="spb">Санкт-Петербург</option>
+        <option value="ekb">Екатеренбург</option>
+        <option value="vrn">Воронеж</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>Данные вашего питомца</legend>
+      <label>
+        Имя питомца
+        <input type="text">
+      </label>
+      <label for="#select2">Вид животного</label>
+      <select name="select" id="select2">
+        <option value="">выбрать вид</option>
+        <option value="msk">Кошка</option>
+        <option value="spb">Собака</option>
+        <option value="ekb">Хомяк</option>
+        <option value="vrn">Рыбка</option>
+      </select>
+    </fieldset>
+    <button type="submit">Отправить данные</button>
+    <button type="reset">Очистить форму</button>
+  </form>
+</body>
+</html>
