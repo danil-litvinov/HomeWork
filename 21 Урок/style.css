@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Couriernew";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Couriernew"),
+      url("fonts/couriernew.woff2") format("woff2"),
+      url("fonts/couriernew.woff") format("woff"),
+      url("fonts/couriernew.eot") format("eot");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Antropos Freefont";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Antropos Freefont"),
+      local("Antropos-Freefont"),
+      url("fonts/Antropos Freefont.woff2") format("woff2"); /* конвертируется только в woff2  */
+      font-display: swap;
+}
+
+.about {
+  background-color: #b5faff;
+}
+
+.about__text-1 {
+  padding: 50px 0;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.about__text-2 {
+  padding: 50px 0;
+  font-size: 2rem;
+  font-family: 'Couriernew', serif;
+  text-align: center;
+}
+
+.about__text-3 {
+  padding: 50px 0;
+  font-size: 2rem;
+  font-family: 'Antropos Freefont', sans-serif;
+  text-align: center;
+}
