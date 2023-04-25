@@ -1,0 +1,25 @@
+.block-1 {
+  width: 300px;
+  height: 300px;
+  background: #6d6d6d;
+  text-align: center;
+  color: #fff;
+  transition: border 3s 2s;
+}
+
+.block-2 {
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+  background: #6d6d6d;
+  text-align: center;
+  color: #fff;
+  transition-duration: 3s;
+  transition-delay: 2s;
+  transition-property: border;
+}
+
+.block-1:hover, .block-2:hover {
+  border: solid #000 5px;
+  background: #84b596;
+}

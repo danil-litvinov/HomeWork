@@ -1,0 +1,15 @@
+div {
+  width: 100vw;
+  height: 80vh;
+}
+
+.block-1 {
+  background: url(image.jpg.~) no-repeat center / contain , linear-gradient(270deg, #effe65,#c76646,#3a0f2d);
+}
+
+.block-2 {
+  background-image: url(image.jpg.~), linear-gradient(90deg, #effe65,#c76646,#3a0f2d);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

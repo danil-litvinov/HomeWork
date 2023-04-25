@@ -1,0 +1,18 @@
+.animation-text {
+  font-size: 3rem;
+  animation: text-gradient 2s linear infinite alternate;
+}
+
+@keyframes text-gradient {
+  0% {
+    color: #ff0000;
+  }
+
+  50% {
+    color: #da0000
+  }
+
+  100% {
+    color: #121212;
+  }
+}

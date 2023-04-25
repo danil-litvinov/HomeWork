@@ -1,0 +1,8 @@
+.block {
+  max-width: 300px;
+  min-height: 300px;
+  background-color: #836eff;
+  border: solid #5849ac 10px;
+  border-radius: 10%;
+  transform: skewX(30deg) translateX(10vmax);
+}
