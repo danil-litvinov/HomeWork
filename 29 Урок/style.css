@@ -1,0 +1,25 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #a4a4a4;
+}
+
+.grid-title {
+  padding: 50px 0 20px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr minmax(100px, 200px) 1fr 1fr;
+  margin: 0 auto;
+  width: 50vw;
+  height: 50vh;
+}
+
+.grid-content {
+  background-color: #9abcb8;
+  text-align: center;
+  line-height: 100%;
+  border: solid #353535 1px;
+}

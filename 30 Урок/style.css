@@ -1,0 +1,10 @@
+.menu__item {
+  display: block;
+  padding: 10px;
+  font-size: 2rem;
+  color: #34157c;
+}
+
+.menu__item:hover:first-child {
+    color: red;
+}
