@@ -68,7 +68,7 @@ html {
 .header {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
   background: url("../images/decor/testi-bg.svg") 50% 50% / cover no-repeat,
     linear-gradient(55.95deg, #ff403a33 0%, #f75e0533 100%);
 }
@@ -148,7 +148,6 @@ html {
 
 .header__body {
   flex-grow: 1;
-  flex-basis: 89vh;
 }
 
 .header__body-inner {
